@@ -47,9 +47,9 @@ section {
 
 
 section > div#img {                  
-    height: 200px;
     background: url(../imagens/img-login.jpg) center top;
     background-size: cover;
+    height: 200px;
     display: block;
 }
 
