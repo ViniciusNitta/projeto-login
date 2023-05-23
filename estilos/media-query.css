@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Configurações Medias-Queries*/ 
+
+:root {
+    --cor001 : #5fdbd7;
+    --cor002 : #5f2c82;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body {
+        background-image: linear-gradient(to top, var(--cor001), var(--cor002));
+    }
+    #img{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    body {
+        background-image: linear-gradient(to top, var(--cor001), var(--cor002));
+    }
+}
+
+@media screen and (min-width:1200px){
+    body {
+        background-image: linear-gradient(to top, var(--cor001), var(--cor002));
+    }
+}
