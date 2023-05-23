@@ -11,8 +11,18 @@
     body {
         background-image: linear-gradient(to top, var(--cor001), var(--cor002));
     }
-    #img{
-        display: none;
+    section#login {
+        width: 750px;
+    }
+    section#login > div#img {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
     }
 }
 
@@ -20,10 +30,58 @@
     body {
         background-image: linear-gradient(to top, var(--cor001), var(--cor002));
     }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#img {
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    section#login > div#formulario > h1 {
+        font-size: 1.5em;
+    }
+    section#login > div#formulario > p {
+        font-size: 1em;
+    }
 }
+
 
 @media screen and (min-width:1200px){
     body {
         background-image: linear-gradient(to top, var(--cor001), var(--cor002));
+    }
+    section#login {
+        width: 1150px;
+    }
+    section#login > div#img {
+        float: right;
+        width: 20%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 80%;
+        height: 100%;
+    }
+    section#login > div#formulario > h1 {
+        font-size: 1.5em;
+    }
+    section#login > div#formulario > p {
+        font-size: 1em;
+    }
+    form > input[type=submit]{
+        width: 50%;
+        margin: auto;
+    }
+    form > a#botao {
+        width: 50%;
+        margin: auto;
+        margin-top: 5px;
     }
 }
