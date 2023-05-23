@@ -137,7 +137,6 @@ section > div#formulario > form > a#botao:hover {
     cursor: pointer;
     border: none;
 }
-
 section > div#formulario > form > a#botao > span {
     font-size: 1em;
 }
